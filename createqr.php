@@ -26,7 +26,7 @@
         die("Connessione al database fallita: " . $conn->connect_error);
     }
 
-    $sql = "INSERT INTO biglietti (stato, codice, qrcode) VALUES ( 0,'$content', '$apiUrl')"; //IMPORTANTE LO STATO DEL BIGLIETTO
+    $sql = "INSERT INTO biglietti (stato, codice, qrcode) VALUES ( 1,'$content', '$apiUrl')"; // ! IMPORTANTE LO STATO DEL BIGLIETTO
     if ($conn->query($sql) === TRUE) {
     } else {
         echo "Errore durante il salvataggio nel database: " . $conn->error;

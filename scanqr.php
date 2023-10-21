@@ -43,9 +43,15 @@
             if($stato == 0){
                 echo "Biglietto ancora da vendere";
                 ?>
+                <br>
                 <form method="POST">
                     <input type="hidden" name="recordId" value="1">
                     <input type="submit" name="cambiaStato1" value="Venduto">
+                </form>
+                <br>
+                <form method="POST">
+                    <input type="hidden" name="recordId" value="1"> <!--possibilità di dichiarare entrato anche un biglietto in stato 0-->
+                    <input type="submit" name="cambiaStato2" value="Entrato">
                 </form>
                 <?php
             }
@@ -102,6 +108,7 @@
     ?>
 <body>
     <br>
-    <a href="interface.php?username=<?php echo urlencode($username); ?>">Torna alla pagina precedente</a>
+    <!--<a href="interface.php?username=<?php echo urlencode($username); ?>">Torna alla pagina precedente</a>-->
+    <a href="interface.php">Torna alla pagina precedente</a> <!-- non c'era il valore di username -->
 </body>
 </html>
