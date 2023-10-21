@@ -1,0 +1,59 @@
+# Created by https://www.toptal.com/developers/gitignore/api/apachecordova,apachehadoop,phpunit
+# Edit at https://www.toptal.com/developers/gitignore?templates=apachecordova,apachehadoop,phpunit
+
+### ApacheCordova ###
+# Apache Cordova generated files and directories
+bin/*
+!/plugins
+!/plugins/android.json
+!/plugins/fetch.json
+plugins/*
+platforms/*
+
+### ApacheHadoop ###
+*.iml
+*.ipr
+*.iws
+*.orig
+*.rej
+.idea
+.svn
+.classpath
+.project
+.settings
+target
+hadoop-common-project/hadoop-kms/downloads/
+hadoop-hdfs-project/hadoop-hdfs/downloads
+hadoop-hdfs-project/hadoop-hdfs-httpfs/downloads
+hadoop-common-project/hadoop-common/src/test/resources/contract-test-options.xml
+hadoop-tools/hadoop-openstack/src/test/resources/contract-test-options.xml
+
+### PHPUnit ###
+# Covers PHPUnit
+# Reference: https://phpunit.de/
+
+# Generated files
+.phpunit.result.cache
+.phpunit.cache
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# End of https://www.toptal.com/developers/gitignore/api/apachecordova,apachehadoop,phpunit
+
+
+dashboard
+img
+xampp
+webalizer
+
+# file singoli:
+applications.html
+bitnami.css
+favicon.ico
+index.php
+arial.ttf
