@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form di Login</title>
+    <title>Generatore Biglietti</title>
 </head>
 <body>
     <h2>Form di Login</h2>
